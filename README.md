@@ -4,7 +4,7 @@
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
-[![CI](https://github.com/peroxile/SecureGitX/actions/workflows/ci.yml/badge.svg)](https://github.com/peroxile/SecureGitX/actions)
+[![CI](https://github.com/Ozag-Labs/SecureGitX/actions/workflows/ci.yml/badge.svg)](https://github.com/Ozag-Labs/SecureGitX/actions)
 
 </div>
 
@@ -17,19 +17,19 @@ SecureGitX is a local first pre-commit secret scanner that blocks API keys, toke
 ## Install
 
 ```sh
-pip install git+https://github.com/peroxile/SecureGitX.git
+pip install git+https://github.com/Ozag-Labs/SecureGitX.git
 ```
 
 ## One Liner 
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/peroxile/SecureGitX/main/scripts/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/Ozag-Labs/SecureGitX/main/scripts/install.sh | bash
 ```
 
 Or clone and install locally:
 
 ```sh
-git clone https://github.com/peroxile/SecureGitX.git
+git clone https://github.com/Ozag-Labs/SecureGitX.git
 cd SecureGitX
 pip install -e ".[dev]"
 ```
