@@ -16,7 +16,7 @@ Contributions are welcome in the following areas:
 Clone the repository:
 
 ```bash
-git clone https://github.com/peroxile/SecureGitX.git
+git clone https://github.com/Ozag-Labs/SecureGitX.git
 cd SecureGitX
 ````
 
