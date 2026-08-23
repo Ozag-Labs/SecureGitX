@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 set -eu
 
-REPO_URL='https://github.com/peroxile/SecureGitX.git'
+REPO_URL='https://github.com/Ozag-Labs/SecureGitX.git'
 REPO_REF='main'  
 PACKAGE='securegitx'
 MIN_PYTHON='3.10'
