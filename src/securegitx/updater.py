@@ -32,7 +32,7 @@ from pathlib import Path
 from securegitx.rules import _RULES_DIR as _DEFAULT_RULES_DIR
 
 DEFAULT_SOURCE_URL = (
-    "https://raw.githubusercontent.com/peroxile/SecureGitX/main"
+    "https://raw.githubusercontent.com/Ozag-Labs/SecureGitX/main"
     "/src/securegitx/rules/rules.json"
 )
 

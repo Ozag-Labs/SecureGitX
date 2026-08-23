@@ -254,7 +254,7 @@ def format_sarif(
                     "driver": {
                         "name": "SecureGitX",
                         "version": version,
-                        "informationUri": "https://github.com/peroxile/SecureGitX",
+                        "informationUri": "https://github.com/Ozag-Labs/SecureGitX",
                         "rules": list(rules_seen.values()),
                     }
                 },
