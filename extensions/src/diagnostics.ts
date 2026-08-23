@@ -4,7 +4,7 @@ import { Finding, Severity } from "./scanner";
 
 const SOURCE = "SecureGitX";
 const RULES_DOC = vscode.Uri.parse(
-  "https://github.com/peroxile/SecureGitX/blob/main/docs/guides/rules-format.md"
+  "https://github.com/Ozag-Labs/SecureGitX/blob/main/docs/guides/rules-format.md"
 );
 
 export function applyFindings(
