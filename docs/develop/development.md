@@ -11,7 +11,7 @@ related: docs/develop/architecture,docs/default/rules-format
 ## Setup
 
 ```sh
-git clone https://github.com/peroxile/SecureGitX.git
+git clone https://github.com/Ozag-Labs/SecureGitX.git
 cd SecureGitX
 pip install -e ".[dev]"
 ```
