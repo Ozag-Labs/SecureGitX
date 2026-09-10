@@ -1,4 +1,4 @@
-![Diagram](assets/SecureGitX.png)
+![Diagram](assets/logo.png)
 
 <div align="center">
 
@@ -23,7 +23,7 @@ pip install git+https://github.com/Ozag-Labs/SecureGitX.git
 ## One Liner 
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/Ozag-Labs/SecureGitX/main/scripts/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/Ozag-Labs/SecureGitX/main/install | bash
 ```
 
 Or clone and install locally:
