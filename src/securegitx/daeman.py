@@ -1,17 +1,5 @@
 """
-SecureGitX background daemon — advisory only.
-
-Watches the repository for staging changes and sensitive untracked files.
-On change: runs a background scan and writes structured results to the local cache.
-Queues .gitignore suggestions for user approval; never applies them automatically.
-
-The daemon NEVER:
-  - stages or commits files
-  - modifies .gitignore or any repository file without user approval
-  - replaces the pre-commit hook as the enforcement point
-  - fetches remote code at runtime
-
-Local state lives in .securegitx/ which is always in .gitignore.
+An optional background process that watch git index for changes.
 """
 
 from __future__ import annotations
