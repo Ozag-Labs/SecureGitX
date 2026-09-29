@@ -1,6 +1,5 @@
 """
-Git operations — subprocess calls only. No rule logic here.
-All functions raise GitError on failure.
+Gitman: git process
 """
 
 from __future__ import annotations
