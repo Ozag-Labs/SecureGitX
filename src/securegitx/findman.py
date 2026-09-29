@@ -1,9 +1,5 @@
 """
-Project type detection — evidence-based, conservative.
-
-Uses explicit manifest files first.
-Falls back to tracked file-extension distribution only if no marker is found.
-Never guesses aggressively — defaults to "generic" when uncertain.
+Findman: discover files types for workspace projects
 """
 
 from __future__ import annotations
