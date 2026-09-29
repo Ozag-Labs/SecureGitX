@@ -1,11 +1,5 @@
 """
-Report formatting — text, JSON, and SARIF output.
-No scanning logic here. Pure presentation.
-
-Formats:
-  text   human-readable terminal output with color
-  json   structured {findings, summary} — consumed by CI and the VS Code extension
-  sarif  SARIF 2.1.0 — consumed by GitHub Code Scanning and VS Code SARIF Viewer
+Complain: describes text, JSON, and SARIF output.
 """
 
 from __future__ import annotations
@@ -141,7 +135,7 @@ def _print_summary(counts: dict[str, int], stream: TextIO) -> None:
     stream.write(", ".join(parts) + "\n\n")
 
 
-# JSON output  (consumed by CI pipelines andVS Code extension)
+# JSON output 
 
 
 def format_json(findings: list[Finding], stream: TextIO = sys.stdout) -> None:
