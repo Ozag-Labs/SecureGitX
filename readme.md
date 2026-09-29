@@ -10,7 +10,7 @@
 
 ---
 
-SecureGitX is a local first pre-commit secret scanner that blocks API keys, tokens, credentials, or sensitive filenames before they get committed.
+SecureGitX is a local first pre-commit secret reviewer that blocks API keys, tokens, credentials, or sensitive filenames before they get committed.
 
 ---
 
