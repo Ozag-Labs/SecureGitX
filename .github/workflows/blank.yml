@@ -1,4 +1,4 @@
-name: Cleanup workflow runs
+name: Blank
 
 on:
   schedule:
@@ -32,7 +32,7 @@ jobs:
               if (run.status !== "completed") continue;
               if (new Date(run.created_at).getTime() > cutoff) continue;
 
-              core.info(`Deleting run ${run.id} (${run.name || run.workflow_id})`);
+              core.info(`removing run ${run.id} (${run.name || run.workflow_id})`);
               await github.rest.actions.deleteWorkflowRun({
                 owner,
                 repo,
