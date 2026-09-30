@@ -1,4 +1,4 @@
-"""Terminal output primitives: icons, color, banner, separators."""
+"""poleface: visual display for icons, color, banner and separators."""
 
 from __future__ import annotations
 
