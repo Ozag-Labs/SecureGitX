@@ -1,14 +1,5 @@
 """
-Selective .gitignore generator.
-
-Manages a clearly-delimited section inside .gitignore.
-Content outside the section is never modified.
-Only adds entries relevant to the detected project type.
-
-Section format:
-  # >>> SecureGitX managed — do not edit this block manually
-  ...entries...
-  # <<< SecureGitX
+.gitignore maker.
 """
 
 from __future__ import annotations
@@ -22,7 +13,7 @@ SECTION_END = "# <<< SecureGitX"
 _SGX_ALWAYS: list[str] = [
     "# SecureGitX local state",
     ".securegitx/",
-    ".securegitx.toml",
+    ".securegitx.config",
 ]
 
 # Security patterns always included
