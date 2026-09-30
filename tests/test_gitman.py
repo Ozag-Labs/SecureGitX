@@ -1,4 +1,4 @@
-"""Tests for securegitx.gitops."""
+"""Test for securegitx.gitman."""
 
 from __future__ import annotations
 
